@@ -22,7 +22,7 @@ namespace Locadora.Filmes.Repositorios.Entity
             return _contexto.Set<Album>().Include(p => p.Filmes).ToList();
         }
 
-        public override Album SelecionarPorId(long id)
+        public override Album  SelecionarPorId(int id)
         {
             return _contexto.Set<Album>().Include(p => p.Filmes)
                 .SingleOrDefault(f => f.Id == id);

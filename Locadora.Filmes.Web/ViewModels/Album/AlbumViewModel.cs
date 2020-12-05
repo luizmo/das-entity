@@ -1,5 +1,4 @@
-﻿using Locadora.Filmes.Web.Annotations;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -29,11 +28,5 @@ namespace Locadora.Filmes.Web.ViewModels.Album
         [MaxLength(100, ErrorMessage ="O nome do autor deve ter no máximo 100 caracteres")]
         [Display(Name = "Autor do álbum")]
         public string Autor { get; set; }
-
-        [Display(Name = "E-mail para contato")]
-        [DataType(DataType.EmailAddress)]
-        [Required(ErrorMessage = "O E-mail é obrigatório!")]
-        [Email(ErrorMessage = "O domínio do E-mail deve ser @unipam.edu.br")]
-        public string Email { get; set; }
     }
 }

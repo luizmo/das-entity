@@ -60,18 +60,9 @@
     <Compile Include="Migrations\202009180051065_AdicaoAutor.designer.cs">
       <DependentUpon>202009180051065_AdicaoAutor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202010230025364_MigracaoEmail.cs" />
-    <Compile Include="Migrations\202010230025364_MigracaoEmail.designer.cs">
-      <DependentUpon>202010230025364_MigracaoEmail.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202011052131160_AdicaoFilmeOk.cs" />
-    <Compile Include="Migrations\202011052131160_AdicaoFilmeOk.designer.cs">
-      <DependentUpon>202011052131160_AdicaoFilmeOk.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TypeConfiguration\AlbumTypeConfiguration.cs" />
-    <Compile Include="TypeConfiguration\FilmeTypeConfiguration.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -93,12 +84,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202009180051065_AdicaoAutor.resx">
       <DependentUpon>202009180051065_AdicaoAutor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202010230025364_MigracaoEmail.resx">
-      <DependentUpon>202010230025364_MigracaoEmail.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202011052131160_AdicaoFilmeOk.resx">
-      <DependentUpon>202011052131160_AdicaoFilmeOk.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

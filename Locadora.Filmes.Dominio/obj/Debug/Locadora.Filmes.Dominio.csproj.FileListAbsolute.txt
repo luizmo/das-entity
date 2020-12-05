@@ -6,18 +6,7 @@ D:\ProjetosVS\Locadora.Filmes\Locadora.Filmes.Dominio\obj\Debug\Locadora.Filmes.
 D:\ProjetosVS\Locadora.Filmes\Locadora.Filmes.Dominio\obj\Debug\Locadora.Filmes.Dominio.pdb
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Dominio\bin\Debug\Locadora.Filmes.Dominio.dll
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Dominio\bin\Debug\Locadora.Filmes.Dominio.pdb
+C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Dominio\obj\Debug\Locadora.Filmes.Dominio.csprojAssemblyReference.cache
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Dominio\obj\Debug\Locadora.Filmes.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Dominio\obj\Debug\Locadora.Filmes.Dominio.dll
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Dominio\obj\Debug\Locadora.Filmes.Dominio.pdb
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dominio\bin\Debug\Locadora.Filmes.Dominio.dll
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dominio\bin\Debug\Locadora.Filmes.Dominio.pdb
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dominio\obj\Debug\Locadora.Filmes.Dominio.csprojAssemblyReference.cache
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dominio\obj\Debug\Locadora.Filmes.Dominio.csproj.CoreCompileInputs.cache
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dominio\obj\Debug\Locadora.Filmes.Dominio.dll
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dominio\obj\Debug\Locadora.Filmes.Dominio.pdb
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dominio\bin\Debug\Locadora.Filmes.Dominio.dll
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dominio\bin\Debug\Locadora.Filmes.Dominio.pdb
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dominio\obj\Debug\Locadora.Filmes.Dominio.csprojAssemblyReference.cache
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dominio\obj\Debug\Locadora.Filmes.Dominio.csproj.CoreCompileInputs.cache
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dominio\obj\Debug\Locadora.Filmes.Dominio.dll
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dominio\obj\Debug\Locadora.Filmes.Dominio.pdb

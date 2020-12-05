@@ -17,31 +17,8 @@ C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Ge
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Generica.Entity\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Generica.Entity\bin\Debug\EntityFramework.xml
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Generica.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.csprojAssemblyReference.cache
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.csproj.CoreCompileInputs.cache
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.csproj.CopyComplete
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.dll
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.pdb
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Generica.Entity\bin\Debug\Locadora.Filmes.Generica.Entity.dll.config
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Generica.Entity\bin\Debug\Locadora.Filmes.Generica.Entity.dll
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Generica.Entity\bin\Debug\Locadora.Filmes.Generica.Entity.pdb
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Generica.Entity\bin\Debug\EntityFramework.dll
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Generica.Entity\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Generica.Entity\bin\Debug\EntityFramework.xml
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Generica.Entity\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.csprojAssemblyReference.cache
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.csproj.CoreCompileInputs.cache
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.csproj.CopyComplete
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.dll
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.pdb
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Generica.Entity\bin\Debug\Locadora.Filmes.Generica.Entity.dll.config
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Generica.Entity\bin\Debug\Locadora.Filmes.Generica.Entity.dll
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Generica.Entity\bin\Debug\Locadora.Filmes.Generica.Entity.pdb
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Generica.Entity\bin\Debug\EntityFramework.dll
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Generica.Entity\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Generica.Entity\bin\Debug\EntityFramework.xml
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Generica.Entity\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.csprojAssemblyReference.cache
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.csproj.CoreCompileInputs.cache
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.csproj.CopyComplete
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.dll
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Generica.Entity\obj\Debug\Locadora.Filmes.Generica.Entity.pdb

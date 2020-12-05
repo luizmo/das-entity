@@ -35,10 +35,6 @@ namespace Locadora.Filmes.Dados.Entity.TypeConfiguration
                 .IsRequired()
                 .HasMaxLength(100)
                 .HasColumnName("Autor");
-
-            Property(p => p.Email)
-                .IsRequired()
-                .HasColumnName("Email");
         }
 
         protected override void ConfigurarChaveEstrangeira()

@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Locadora.Filmes.Dados.Entity\\TypeConfiguration",
+    "\\Locadora.Filmes.Dominio\\Properties",
+    "\\Locadora.Filmes.Web\\AutoMapper",
+    "\\Locadora.Filmes.Web\\ViewModels",
+    "\\Locadora.Filmes.Web\\ViewModels\\Album"
+  ],
+  "SelectedNode": "\\Locadora.Filmes.sln",
+  "PreviewInSolutionExplorer": false
+}

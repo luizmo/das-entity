@@ -21,7 +21,5 @@ namespace Locadora.Filmes.Web.ViewModels.Album
 
         [Display(Name = "Autor do álbum")]
         public string Autor { get; set; }
-        [Display(Name = "E-mail para contato")]
-        public string Email { get; set; }
     }
 }

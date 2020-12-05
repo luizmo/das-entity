@@ -33,53 +33,8 @@ C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Da
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.csprojAssemblyReference.cache
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.Migrations.MigracaoInical.resources
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.Migrations.AdicaoAutor.resources
-C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.Migrations.MigracaoEmail.resources
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.csproj.GenerateResource.cache
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.csproj.CoreCompileInputs.cache
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.csproj.CopyComplete
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.dll
 C:\Users\Mislene\Documents\Projetos VS - Aula\Locadora.Filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.pdb
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\bin\Debug\Locadora.Filmes.Dados.Entity.dll.config
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\bin\Debug\Locadora.Filmes.Dados.Entity.dll
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\bin\Debug\Locadora.Filmes.Dados.Entity.pdb
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\bin\Debug\EntityFramework.dll
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\bin\Debug\Locadora.Filmes.Dominio.dll
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\bin\Debug\Locadora.Filmes.Generica.Entity.dll
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\bin\Debug\Locadora.Filmes.Dominio.pdb
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\bin\Debug\Locadora.Filmes.Generica.Entity.pdb
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\bin\Debug\Locadora.Filmes.Generica.Entity.dll.config
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\bin\Debug\EntityFramework.xml
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.csprojAssemblyReference.cache
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.Migrations.MigracaoInical.resources
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.Migrations.AdicaoAutor.resources
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.Migrations.MigracaoEmail.resources
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.csproj.GenerateResource.cache
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.csproj.CoreCompileInputs.cache
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.csproj.CopyComplete
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.dll
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.pdb
-C:\Users\Gabriel\Desktop\Locadora.Filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.Migrations.AdicaoFilmeOk.resources
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\bin\Debug\Locadora.Filmes.Dados.Entity.dll.config
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\bin\Debug\Locadora.Filmes.Dados.Entity.dll
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\bin\Debug\Locadora.Filmes.Dados.Entity.pdb
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\bin\Debug\EntityFramework.dll
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\bin\Debug\Locadora.Filmes.Dominio.dll
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\bin\Debug\Locadora.Filmes.Generica.Entity.dll
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\bin\Debug\Locadora.Filmes.Dominio.pdb
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\bin\Debug\Locadora.Filmes.Generica.Entity.pdb
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\bin\Debug\Locadora.Filmes.Generica.Entity.dll.config
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\bin\Debug\EntityFramework.xml
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.csprojAssemblyReference.cache
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.Migrations.MigracaoInical.resources
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.Migrations.AdicaoAutor.resources
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.Migrations.MigracaoEmail.resources
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.Migrations.AdicaoFilmeOk.resources
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.csproj.GenerateResource.cache
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.csproj.CoreCompileInputs.cache
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.csproj.CopyComplete
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.dll
-C:\Users\Miguel\Documents\Projects\csharp\locadora-filmes\Locadora.Filmes.Dados.Entity\obj\Debug\Locadora.Filmes.Dados.Entity.pdb

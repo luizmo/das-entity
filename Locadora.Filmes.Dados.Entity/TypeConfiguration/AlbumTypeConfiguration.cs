@@ -14,7 +14,8 @@ namespace Locadora.Filmes.Dados.Entity.TypeConfiguration
         {
             Property(p => p.Id)
                 .IsRequired()
-                .HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity)
+                .HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations
+                                           .Schema.DatabaseGeneratedOption.Identity)
                 .HasColumnName("Id");
 
             Property(p => p.Nome)
@@ -35,10 +36,16 @@ namespace Locadora.Filmes.Dados.Entity.TypeConfiguration
                 .IsRequired()
                 .HasMaxLength(100)
                 .HasColumnName("Autor");
+
+            Property(p => p.Email)
+                .IsRequired()
+                .HasColumnName("Email");
+
         }
 
         protected override void ConfigurarChaveEstrangeira()
-        {            
+        {
+            
         }
 
         protected override void ConfigurarChavePrimaria()

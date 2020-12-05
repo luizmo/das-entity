@@ -9,18 +9,37 @@ using System.Web.Mvc;
 using AutoMapper;
 using Locadora.Filmes.Dados.Entity.Context;
 using Locadora.Filmes.Dominio;
+using Locadora.Filmes.Repositorios.Comum;
+using Locadora.Filmes.Repositorios.Entity;
+using Locadora.Filmes.Web.Filtros;
 using Locadora.Filmes.Web.ViewModels.Album;
 
 namespace Locadora.Filmes.Web.Controllers
 {
+    [Authorize]
+    //[LogActionFilter] - acrescentado na pasta App_Config: FilterConfig.cs
     public class AlbunsController : Controller
     {
-        private FilmeDbContext db = new FilmeDbContext();
+        private IRepositorioGenerico<Album, int>
+             repositorioAlbuns = new AlbunsRepositorio(new FilmeDbContext());
 
-        // GET: Albuns
+        // GET: Albuns       
+        
         public ActionResult Index()
         {
-            return View(Mapper.Map<List<Album>, List<AlbumIndexViewModel>>(db.Albuns.ToList()));
+            return View(Mapper.Map<List<Album>, List<AlbumIndexViewModel>>(repositorioAlbuns.Selecionar()));
+        }
+
+        public ActionResult FiltrarPorNome(string pesquisa)
+        {
+            List<Album> albuns = repositorioAlbuns
+                .Selecionar()
+                .Where(a => a.Nome.Contains(pesquisa)).ToList();
+
+            List<AlbumIndexViewModel> viewModels = Mapper
+                .Map<List<Album>, List<AlbumIndexViewModel>>(albuns);
+
+            return Json(viewModels, JsonRequestBehavior.AllowGet);
         }
 
         // GET: Albuns/Details/5
@@ -30,12 +49,12 @@ namespace Locadora.Filmes.Web.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Album album = db.Albuns.Find(id);
+            Album album = repositorioAlbuns.SelecionarPorId(id.Value);
             if (album == null)
             {
                 return HttpNotFound();
             }
-            return View(album);
+            return View(Mapper.Map<Album, AlbumIndexViewModel>(album));
         }
 
         // GET: Albuns/Create
@@ -49,13 +68,12 @@ namespace Locadora.Filmes.Web.Controllers
         // Para obter mais detalhes, confira https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Nome,Ano,Descricao,Autor")] AlbumViewModel viewModel)
+        public ActionResult Create([Bind(Include = "Id,Nome,Ano,Descricao,Autor,Email")] AlbumViewModel viewModel )
         {
             if (ModelState.IsValid)
             {
                 Album album = Mapper.Map<AlbumViewModel, Album>(viewModel);
-                db.Albuns.Add(album);
-                db.SaveChanges();
+                repositorioAlbuns.Inserir(album);
                 return RedirectToAction("Index");
             }
 
@@ -69,7 +87,7 @@ namespace Locadora.Filmes.Web.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Album album = db.Albuns.Find(id);
+            Album album = repositorioAlbuns.SelecionarPorId(id.Value);
             if (album == null)
             {
                 return HttpNotFound();
@@ -82,13 +100,12 @@ namespace Locadora.Filmes.Web.Controllers
         // Para obter mais detalhes, confira https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Nome,Ano,Descricao,Autor")] AlbumViewModel viewModel)
+        public ActionResult Edit([Bind(Include = "Id,Nome,Ano,Descricao,Autor,Email")] AlbumViewModel viewModel)
         {
             if (ModelState.IsValid)
             {
                 Album album = Mapper.Map<AlbumViewModel, Album>(viewModel);
-                db.Entry(album).State = EntityState.Modified;
-                db.SaveChanges();
+                repositorioAlbuns.Alterar(album);
                 return RedirectToAction("Index");
             }
             return View(viewModel);
@@ -101,12 +118,13 @@ namespace Locadora.Filmes.Web.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Album album = db.Albuns.Find(id);
+            Album album = repositorioAlbuns.SelecionarPorId(id.Value);
+                
             if (album == null)
             {
                 return HttpNotFound();
             }
-            return View(album);
+            return View(Mapper.Map<Album, AlbumIndexViewModel>(album));
         }
 
         // POST: Albuns/Delete/5
@@ -114,19 +132,9 @@ namespace Locadora.Filmes.Web.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Album album = db.Albuns.Find(id);
-            db.Albuns.Remove(album);
-            db.SaveChanges();
+            repositorioAlbuns.ExcluirPorId(id);
             return RedirectToAction("Index");
         }
-
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+       
     }
 }

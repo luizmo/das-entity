@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{683DDE1C-DF93-4171-823D-A1E7859A83D3}</ProjectGuid>
+    <ProjectGuid>{C38590AD-A575-4255-B56A-F1A1D07B0EA6}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -19,7 +19,7 @@
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44369</IISExpressSSLPort>
+    <IISExpressSSLPort>44391</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -55,7 +55,34 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.3\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.3\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.3\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin, Version=4.1.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.4.1.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=4.1.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.4.1.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -127,6 +154,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Annotations\EmailAttribute.cs" />
     <Compile Include="App_Start\AutoMapperConfig.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -134,13 +162,21 @@
     <Compile Include="AutoMapper\DominioParaViewModelProfile.cs" />
     <Compile Include="AutoMapper\ViewModelParaDominioProfile.cs" />
     <Compile Include="Controllers\AlbunsController.cs" />
+    <Compile Include="Controllers\FilmesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UsuariosController.cs" />
+    <Compile Include="Filtros\LogActionFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Identity\FilmeIdentityDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\Album\AlbumIndexViewModel.cs" />
     <Compile Include="ViewModels\Album\AlbumViewModel.cs" />
+    <Compile Include="ViewModels\Filme\FilmeIndexViewModel.cs" />
+    <Compile Include="ViewModels\Filme\FilmeViewModel.cs" />
+    <Compile Include="ViewModels\Usuarios\UsuarioViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -183,6 +219,13 @@
     <Content Include="Views\Albuns\Details.cshtml" />
     <Content Include="Views\Albuns\Edit.cshtml" />
     <Content Include="Views\Albuns\Index.cshtml" />
+    <Content Include="Views\Filmes\Create.cshtml" />
+    <Content Include="Views\Filmes\Delete.cshtml" />
+    <Content Include="Views\Filmes\Details.cshtml" />
+    <Content Include="Views\Filmes\Edit.cshtml" />
+    <Content Include="Views\Filmes\Index.cshtml" />
+    <Content Include="Views\Usuarios\CriarUsuario.cshtml" />
+    <Content Include="Views\Usuarios\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -203,16 +246,28 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Locadora.Filmes.Dados.Entity\Locadora.Filmes.Dados.Entity.csproj">
-      <Project>{48cf3bc2-fdb8-44f9-922a-b25bd6b755ec}</Project>
+      <Project>{ad379491-7776-4d51-988b-0a732e4b2931}</Project>
       <Name>Locadora.Filmes.Dados.Entity</Name>
     </ProjectReference>
     <ProjectReference Include="..\Locadora.Filmes.Dominio\Locadora.Filmes.Dominio.csproj">
-      <Project>{5ace834b-b1b3-4e4f-8c6a-459039b4ffb4}</Project>
+      <Project>{0f7b1520-d4c0-43ec-86d1-30771a569afc}</Project>
       <Name>Locadora.Filmes.Dominio</Name>
     </ProjectReference>
     <ProjectReference Include="..\Locadora.Filmes.Generica.Entity\Locadora.Filmes.Generica.Entity.csproj">
-      <Project>{3de5ef59-3f5e-45bd-9d80-a82139923fc4}</Project>
+      <Project>{7c0b8b59-5d31-4872-980d-324cc4d9fa42}</Project>
       <Name>Locadora.Filmes.Generica.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Locadora.Filmes.Repositorios.Comum\Locadora.Filmes.Repositorios.Comum.csproj">
+      <Project>{7cb257f5-f5a3-4980-9829-cf4c12d4f651}</Project>
+      <Name>Locadora.Filmes.Repositorios.Comum</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Locadora.Filmes.Repositorios.Entity\Locadora.Filmes.Repositorios.Entity.csproj">
+      <Project>{16344e5c-8b02-470e-b510-9c0c3f0cd9f6}</Project>
+      <Name>Locadora.Filmes.Repositorios.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Locadora.Repositorios.Comum.Entity\Locadora.Repositorios.Comum.Entity.csproj">
+      <Project>{6a9035b5-d031-4c58-971d-301f6517a6a4}</Project>
+      <Name>Locadora.Repositorios.Comum.Entity</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
@@ -231,9 +286,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>58791</DevelopmentServerPort>
+          <DevelopmentServerPort>58980</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44369/</IISUrl>
+          <IISUrl>https://localhost:44391/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

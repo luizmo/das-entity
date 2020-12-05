@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{48CF3BC2-FDB8-44F9-922A-B25BD6B755EC}</ProjectGuid>
+    <ProjectGuid>{AD379491-7776-4D51-988B-0A732E4B2931}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Locadora.Filmes.Dados.Entity</RootNamespace>
@@ -52,17 +52,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\FilmeDbContext.cs" />
-    <Compile Include="Migrations\202009180031272_MigracaoInical.cs" />
-    <Compile Include="Migrations\202009180031272_MigracaoInical.designer.cs">
-      <DependentUpon>202009180031272_MigracaoInical.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202009180051065_AdicaoAutor.cs" />
-    <Compile Include="Migrations\202009180051065_AdicaoAutor.designer.cs">
-      <DependentUpon>202009180051065_AdicaoAutor.cs</DependentUpon>
+    <Compile Include="Migrations\202011040022057_MigracaoInicial.cs" />
+    <Compile Include="Migrations\202011040022057_MigracaoInicial.designer.cs">
+      <DependentUpon>202011040022057_MigracaoInicial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TypeConfiguration\AlbumTypeConfiguration.cs" />
+    <Compile Include="TypeConfiguration\FilmeTypeConfiguration.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -70,20 +67,17 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Locadora.Filmes.Dominio\Locadora.Filmes.Dominio.csproj">
-      <Project>{5ace834b-b1b3-4e4f-8c6a-459039b4ffb4}</Project>
+      <Project>{0f7b1520-d4c0-43ec-86d1-30771a569afc}</Project>
       <Name>Locadora.Filmes.Dominio</Name>
     </ProjectReference>
     <ProjectReference Include="..\Locadora.Filmes.Generica.Entity\Locadora.Filmes.Generica.Entity.csproj">
-      <Project>{3de5ef59-3f5e-45bd-9d80-a82139923fc4}</Project>
+      <Project>{7c0b8b59-5d31-4872-980d-324cc4d9fa42}</Project>
       <Name>Locadora.Filmes.Generica.Entity</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202009180031272_MigracaoInical.resx">
-      <DependentUpon>202009180031272_MigracaoInical.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202009180051065_AdicaoAutor.resx">
-      <DependentUpon>202009180051065_AdicaoAutor.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202011040022057_MigracaoInicial.resx">
+      <DependentUpon>202011040022057_MigracaoInicial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

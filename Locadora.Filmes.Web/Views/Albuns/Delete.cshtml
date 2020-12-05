@@ -1,4 +1,4 @@
-﻿@model Locadora.Filmes.Dominio.Album
+﻿@model Locadora.Filmes.Web.ViewModels.Album.AlbumIndexViewModel
 
 @{
     ViewBag.Title = "Delete";
@@ -41,6 +41,13 @@
 
         <dd>
             @Html.DisplayFor(model => model.Autor)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
         </dd>
 
     </dl>
